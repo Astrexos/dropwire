@@ -1,0 +1,27 @@
+# ==========================================
+# 1. PRIVATE BACKEND & ENVIRONMENT SECRETS
+# ==========================================
+server/
+.env
+.env.*
+*.env
+
+# ==========================================
+# 2. LOCAL SCRATCHPADS & TELEMETRY
+# ==========================================
+codebase.txt
+tree.html
+generate-tree.mjs
+xray-dashboard.html
+xray-machine.mjs
+xray-report.txt
+xray-live-telemetry.json
+
+# ==========================================
+# 3. BUILD OUTPUTS & DEPENDENCIES
+# ==========================================
+node_modules/
+client/dist/
+client/release/
+dist/
+release/
